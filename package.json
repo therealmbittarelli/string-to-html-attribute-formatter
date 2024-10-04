@@ -1,0 +1,11 @@
+{
+  "name": "string-to-html-attribute-formatter",
+  "version": "1.0.0",
+  "description": "This package takes a string and makes it html-attribute-friendly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maggie Bittarelli",
+  "license": "ISC"
+}

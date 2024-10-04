@@ -9,6 +9,5 @@ module.exports = function formatString(string) {
     string.toLowerCase().replaceAll(' ', '-')
       .replaceAll(/[.,\/#!'?$%\^&\*;:{}=\_`~()]/g,"");
 
-      console.log('ttyp', typeof formattedString)
   return formattedString;
 }

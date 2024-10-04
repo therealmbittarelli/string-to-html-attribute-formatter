@@ -9,6 +9,20 @@ This package accepts a string and formats it to be html attribute-friendly. It r
 
 ----------
 
+### Getting Started
+
+- Install with npm: `npm install string-to-html-attribute-formatter`
+- Use:
+```
+import { formatString } from 'string-to-html-attribute-formatter'
+
+formatString('My String is83** ^%^ *73ready')
+
+// output: 'my-string-is-ready'
+```
+
+----------
+
 ### Example use case:
 
 - 🚂 Your React `product` component, which consists of an image, a product name, and a price, receives a param named `productName`, ex: `productName: 'Chug chug chug! Train Set`
